@@ -12,8 +12,8 @@ public class App
     {
         try{
             
-            String name = "ufs.br";
-            InetAddress address = InetAddress.getByName(name); 
+            String name = "google.com.br";
+            InetAddress address = InetAddress.getByName(name); //dado o nome de um servidor, conseguir o IP dele
             System.out.println( "Name:      "+ name);
             System.out.println( "Address:   "+ address.getHostAddress());
         } catch (UnknownHostException e){
